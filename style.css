@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #e4e3e3;
+}
+
+.main-container {
+  width: 350px;
+  height: 430px;
+  background-color: #d1d1d1;
+  display: block;
+  text-align: center;
+  margin: 30px auto;
+  margin-top: 20px;
+  padding-top: 45px;
+  border-radius: 5px;
+  border: solid 1px #c0bebe;
+}
+
+.result {
+  height: 45px;
+  width: 75%;
+  padding-left: 10px;
+  border: 1px solid hsl(0, 0%, 60%);
+  margin: auto auto 6px auto;
+  text-align: left;
+  padding-top: 14px;
+  background-color: #cfcfbc;
+}
+
+.operators {
+  height: 45px;
+  width: 75%;
+  display: flex;
+  background-color: #d1d1d1;
+  margin-left: 12.5%;
+}
+
+.nums1-3,
+.nums4-6,
+.nums7-9,
+.nums0,
+.clearAndEquals {
+  height: 45px;
+  display: flex;
+  background-color: #d1d1d1;
+}
+
+.operators,
+.nums1-3,
+.nums4-6,
+.nums7-9,
+.clearAndEquals {
+  margin-bottom: 6px;
+}
+
+.numbers,
+.clearAndEquals {
+  width: 75%;
+  background-color: #d1d1d1;
+  margin-left: 12.5%;
+}
+
+.btn {
+  flex: 1;
+  border: 1px solid rgb(170, 170, 170);
+  background-color: #c5c5c5;
+}
+
+.add,
+.multiply,
+.substract,
+.num1,
+.num2,
+.num4,
+.num5,
+.num7,
+.num8,
+.clear {
+  margin-right: 2.5%;
+}
